@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Livid Front End Web Framework</title>
+  <link rel="stylesheet" type="text/css" href="css/livid.css">
+</head>
+<body>
+<h1>Livid Front End Web Framework</h1>
+<p>It's a bad mother fucker!</p>
+<hr />
+<h1>Typography</h1>
+<hr />
+<h2>Headings</h2>
+<h1>h1 heading <small>secondary text</small></h1>
+<h2>h2 heading <small>secondary text</small></h2>
+<h3>h3 heading <small>secondary text</small></h3>
+<h4>h4 heading <small>secondary text</small></h4>
+<h5>h5 heading <small>secondary text</small></h5>
+<h6>h6 heading <small>secondary text</small></h6>
+<p class="h1">This is paragraph text with an .h1 class <span class="small">secondary text</span></p>
+<p class="lead">This is lead text, make a paragraph stand out</p>
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This line of text is meant to be treated as deleted text</del></p>
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This line of text will render as underlined</u></p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p>The following text is <strong>rendered as bold text</strong></p>
+<p>The following text is <em>rendered as italicized text</em></p>
+<p class="text-left">Left aligned text.</p>
+<p class="text-center">Center aligned text.</p>
+<p class="text-right">Right aligned text.</p>
+<p class="text-justify">Justified text.</p>
+<p class="text-nowrap">No wrap text.</p>
+<h2>Tranformation classes</h2>
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercase text.</p>
+<p class="text-capitalize">Capitalized text.</p>
+
+<h3>Abbreviations</h3>
+<p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr></p>
+<p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> mother fucker, do you speak it?<p>
+
+<h3>Addresses</h3>
+<address>
+<strong>Theory of Webolution</strong><br />
+2001 S MacArthur Blvd, lot 119<br />
+Oklahoma City, OK 74838<br />
+<abbr title="Phone">P:</abbr> (970) 685-7695
+</address>
+
+<address>
+ <strong>Brian Baker</strong>
+ <a href="mailto#">brian.baker@example.com</a>
+</address>
+<hr />
+<h3>Blockquotes</h3>
+<blockquote>
+  <p>This is a quote of text from within my document. It can say whatever it wants to.</p>
+  <footer>
+    Brian Baker in <cite title="Kinda Funny">Source Title</cite></footer>
+  </footer>
+</blockquote>
+
+<h3>Alternate displays</h3>
+<blockquote class="blockquote-reverse">
+  <p>This is a quote of text from within my document. It can say whatever it wants to.</p>
+  <footer>
+    Brian Baker in <cite title="Kinda Funny">Source Title</cite></footer>
+  </footer>
+</blockquote>
+
+<hr />
+<h3>Lists</h3>
+<h3>Unordered</h3>
+<ul>
+  <li>List item one</li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four
+    <ul>
+      <li>Sublist item one</li>
+      <li>Sublist item two</li>
+      <li>Sublist item three</li>
+    </ul>
+  </li>
+  <li>List item five</li>
+  <li>List item six</li>
+</ul>
+
+<h3>Ordered</h3>
+<ol>
+  <li>List item one</li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four
+    <ul>
+      <li>Sublist item one</li>
+      <li>Sublist item two</li>
+      <li>Sublist item three</li>
+    </ul>
+  </li>
+  <li>List item five</li>
+  <li>List item six</li>
+</ol>
+
+<h3>Unstyled</h3>
+<ul class="list-unstyled">
+  <li>List item one</li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four
+    <ul>
+      <li>Sublist item one</li>
+      <li>Sublist item two</li>
+      <li>Sublist item three</li>
+    </ul>
+  </li>
+  <li>List item five</li>
+  <li>List item six</li>
+</ul>
+
+<ol class="list-unstyled">
+  <li>List item one</li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four
+    <ul>
+      <li>Sublist item one</li>
+      <li>Sublist item two</li>
+      <li>Sublist item three</li>
+    </ul>
+  </li>
+  <li>List item five</li>
+  <li>List item six</li>
+</ol>
+
+<h3>Inline</h3>
+<ul class="list-inline">
+  <li>List item one</li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four</li>
+  <li>List item five</li>
+  <li>List item six</li>
+</ul>
+
+<ol class="list-inline">
+  <li>List item one</li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four</li>
+  <li>List item five</li>
+  <li>List item six</li>
+</ol>
+
+<hr />
+<h3>Description Lists</h3>
+<dl>
+  <dt>Polymorphism</dt>
+  <dd>The provision of a single interface to entities of different types</dd>
+  <dt>Encapsulation</dt>
+  <dd>A language mechanism for restricting direct access to some of the objects components.</dd>
+  <dd>A language construct that facilitates the bundling of data with the methods (or other functions)
+    operating on that data</dd>
+  <dt>Really long test description term</dt>
+  <dd>short</dd>
+  <hr />
+  <dt>Short</dt>
+  <dd>Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</dd>
+</dl>
+
+<hr />
+<h3>Code</h3>
+<h3>Inline</h3>
+<p>For wrapping inline code, use <code>&lt;code>&lt;/code></code></p>
+
+<h3>User input</h3>
+<p>To start watching a directory with compass, type <kbd>compass watch</kbd></p>
+<p>Press <kbd>ctrl + c</kbd> to copy</p>
+
+<h3>Basic Block</h3>
+<pre>
+&lt;!doctype html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="utf-8">
+ &lt;title>Site Title&lt;/title>
+&lt;/head>
+&lt;body>
+&lt;/body>
+&lt;/html>
+</pre>
+
+<pre class="pre-scrollable">
+//class of pre-scrollable
+&lt;!doctype html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="utf-8">
+ &lt;meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+ &lt;title>Site Title&lt;/title>
+
+ &lt;link rel="stylesheet" href="css/livid.css">
+
+ &lt;!--[if lt IE 9]>
+  &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js">&lt;/script>
+  &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js">&lt;/script>
+ &lt;![endif]-->
+
+&lt;/head>
+&lt;body>
+ &lt;h1>Hello, Bitches!</h1>
+
+ <!-- jQuery -->
+ &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">&lt;/script>
+&lt;/body>
+&lt;/html>
+</pre>
+
+<hr />
+<h3>Variables</h3>
+<p><var>y</var> = <var>mx</var> + <var>b</var></p>
+
+<hr />
+<h3>Sample output</h3>
+<p><samp>This text is meant to be treated as sample output from a computer program.</samp></p>
+
+
+</body>
+</html>

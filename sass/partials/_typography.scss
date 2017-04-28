@@ -1,0 +1,227 @@
+body {
+  font-size: 16px;
+  line-height: 1.428;
+  font-family: $open-sans;
+  color: $main-font-color;
+}
+p {
+  margin-bottom:10px;
+  small, .small {
+    font-size:.75em;
+    color:lighten($main-font-color, 20%);
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $oswald;
+  display: block;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $oswald;
+  display:inline;
+}
+h1, .h1 {
+  font-size: 2.250em;
+  small, .small {
+    font-size:.75em;
+    color:lighten($main-font-color, 30%);
+  }
+}
+
+h2, .h2 {
+  font-size: 1.875em;
+  small, .small {
+    font-size:.75em;
+    color:lighten($main-font-color, 30%);
+  }
+}
+
+h3, .h3 {
+  font-size: 1.5em;
+  small, .small {
+    font-size:.75em;
+    color:lighten($main-font-color, 30%);
+  }
+}
+
+h4, .h4 {
+  font-size: 1.125em;
+  small, .small {
+    font-size:.75em;
+    color:lighten($main-font-color, 30%);
+  }
+}
+
+h5, .h5 {
+  font-size: .875em;
+  small, .small {
+    font-size:.75em;
+    color:lighten($main-font-color, 30%);
+  }
+}
+
+h6, .h6 {
+  font-size: .750em;
+  small, .small {
+    font-size:.75em;
+    color:lighten($main-font-color, 30%);
+  }
+}
+
+.lead {
+  font-size: 1.5em;
+}
+mark {
+  background-color:$mark-color;
+}
+del, s {
+  text-decoration: line-through;
+}
+ins, u {
+  text-decoration: underline;
+}
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align:right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+abbr {
+  border-bottom:1px dotted $main-font-color;
+  cursor: help;
+  &.initialism {
+    font-size: .9em;
+  }
+}
+address {
+  margin-bottom:20px;
+}
+blockquote {
+  & p {
+    margin:0;
+  }
+  border-left: 4px solid lighten($main-font-color, 60%);
+  margin:10px;
+  padding:5px 2px 5px 10px;
+  footer {
+    color:lighten($main-font-color, 40%);
+    font-size: .9em;
+    &:before {
+      content: "--";
+    }
+  }
+  &.blockquote-reverse {
+    border-left:none;
+    border-right: 4px solid lighten($main-font-color, 60%);
+    text-align:right;
+    padding:5px 10px 5px 2px;
+  }
+
+}
+cite {
+  font-style: italic;
+}
+
+ul {
+  li {
+    margin-left:10px;
+    list-style-type:disc;
+    ul {
+      li {
+        list-style-type:circle;
+      }
+    }
+  }
+  list-style-position: outside;
+  margin-left:20px;
+  &.list-unstyled  {
+    > li {
+      list-style-type: none;
+      margin:0;
+    }
+    list-style-position: inside;
+    margin:0;
+  }
+  &.list-inline {
+    > li {
+      list-style-type:none;
+      margin:0;padding:0;
+      display:inline-block;
+    }
+    list-style-position: inside;
+    margin:0;
+  }
+}
+ol {
+  li {
+    margin-left:10px;
+    list-style-type: decimal;
+  }
+  list-style-position: outside;
+  margin-left:20px;
+  &.list-unstyled  {
+    > li {
+      list-style-type: none;
+      margin:0;
+    }
+    list-style-position: inside;
+    margin:0;
+  }
+  &.list-inline {
+    > li {
+      list-style-type:none;
+      margin:0;
+      display:inline-block;
+    }
+    list-style-position: inside;
+    margin:0;
+  }
+}
+
+dl {
+  border: 3px double #ccc;
+  padding: 0.5em;
+}
+dt {
+  float: left;
+  clear: left;
+  width: 150px;
+  text-align: right;
+  font-weight: bold;
+}
+dt::after {
+  content: ":";
+}
+dd {
+  margin: 0 0 0 160px;
+  padding: 0 0 0.5em 0;
+}
+
+hr {
+  clear:both;
+  margin:30px 0;
+}
