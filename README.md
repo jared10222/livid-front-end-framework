@@ -10,7 +10,7 @@ Take Livid Framework for a test drive and blow off some steam!
 ### Table of Contents
 ---
 + [Getting Started](README.md#getting-started)
-  + [Basic Template](README.md#basic-template)
+  + [Basic Template](#basic-template)
 + [Grid](README.md#grid)
   + [Grid Options](README.md#grid-options)
   + [Example Grid](README.md#example-grid)
