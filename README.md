@@ -67,6 +67,7 @@ mobile first website.
 ### Example: 3 columns on medium screen size
 ### [Example Grid](#example-grid)
 To get three columns of equal width:
+
 :warning: *Columns must be placed inside of a container with
  either a .row-mother-fucker or .row-fluid-mother-fucker class applied to it*
 ```html
