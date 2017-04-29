@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /**
  * Layout variables
  */
-.row {
+.row-mother-fucker {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -73,7 +73,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 0;
 }
 
-.row-responsive {
+.row-fluid-mother-fucker {
   width: 100%;
   display: flex;
   flex-direction: row;
