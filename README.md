@@ -23,7 +23,8 @@ Take Livid Framework for a test drive and blow off some steam!
   ---
 
 ### [Getting Started](#getting-started)
-[Add the livid.css file to the header in your index.html file](#basic-template)
+Add the livid.css file to the header in your index.html file
+[Basic Template](#basic-template)
 ```html
 <!--basic template-->
 <!doctype html>
@@ -63,7 +64,8 @@ mobile first website.
 |Break Points| &lt;480px     | &ge;480px  |&ge;768px    | &ge; 968px     | &ge; 1200px|
 |columns|12  |12             |12          |12           |12              |12          |
 
-### [Example: 3 columns on medium screen size](#example-grid)
+### Example: 3 columns on medium screen size
+[example-grid](#example-grid)
 To get three columns of equal width:
 ```html
 <div class="row-mother-fucker">
