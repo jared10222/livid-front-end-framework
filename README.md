@@ -78,12 +78,16 @@ To get three columns of equal width:
 ### Positioning Your Columns
 *when using the following classes, each row must have a total of 12 columns in it.*<br />
 *if you have 3 columns, then you have 3 different positions you can order them in.*<br />
-Classes: __pos-1__ thru **pos-12**
+__tiny-ass-pos-1__ thru **tiny-ass-pos-12**<br />
+__sm-ass-pos-1__ thru **sm-ass-pos-12**<br />
+__md-ass-pos-1__ thru **md-ass-pos-12**<br />
+__lg-ass-pos-1__ thru **lg-ass-pos-12**<br />
+__xlg-ass-pos-1__ thru **xlg-ass-pos-12**
 ```html
 <div class="row-mother-fucker">
-  <div class="sm-ass-col-4 pos-2">pos-2</div>
-  <div class="sm-ass-col-4 pos-3">pos-3</div>
-  <div class="sm-ass-col-4 pos-1">pos-4</div>
+  <div class="sm-ass-col-4 sm-ass-pos-2">pos-2</div>
+  <div class="sm-ass-col-4 sm-ass-pos-3">pos-3</div>
+  <div class="sm-ass-col-4 sm-ass-pos-1">pos-4</div>
 </div><!--end row-->
 ```
 ---

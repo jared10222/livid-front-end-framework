@@ -44,3 +44,42 @@
     padding:#{$padding-top * 1%} $padding-side * 1%;
   }
 }
+
+@mixin columnPosition($column){
+  &.#{$column}-ass-pos-1 {
+    order:1;
+  }
+  &.#{$column}-ass-pos-2 {
+    order:2;
+  }
+  &.#{$column}-ass-pos-3 {
+    order:3;
+  }
+  &.#{$column}-ass-pos-4 {
+    order:4;
+  }
+  &.#{$column}-ass-pos-5 {
+    order:5;
+  }
+  &.#{$column}-ass-pos-6 {
+    order: 6;
+  }
+  &.#{$column}-ass-pos-7 {
+    order: 7;
+  }
+  &.#{$column}-ass-pos-8 {
+    order: 8;
+  }
+  &.#{$column}-ass-pos-9 {
+    order: 9;
+  }
+  &.#{$column}-ass-pos-10 {
+    order: 10;
+  }
+  &.#{$column}-ass-pos-11 {
+    order: 11;
+  }
+  &.#{$column}-ass-pos-12 {
+    order:12;
+  }
+}
