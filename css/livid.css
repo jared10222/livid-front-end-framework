@@ -3267,7 +3267,7 @@ h6 small, h6 .small, .h6 small, .h6 .small {
   color: gray;
 }
 
-.lead {
+.fuckin-poppin {
   font-size: 1.5em;
 }
 
@@ -3291,35 +3291,35 @@ em, i {
   font-style: italic;
 }
 
-.text-left {
+.left-damnit {
   text-align: left;
 }
 
-.text-right {
+.right-damnit {
   text-align: right;
 }
 
-.text-center {
+.center-damnit {
   text-align: center;
 }
 
-.text-justify {
+.justify-damnit {
   text-align: justify;
 }
 
-.text-nowrap {
+.nowrap-damnit {
   white-space: nowrap;
 }
 
-.text-lowercase {
+.lowercase-damnit {
   text-transform: lowercase;
 }
 
-.text-uppercase {
+.uppercase-damnit {
   text-transform: uppercase;
 }
 
-.text-capitalize {
+.capitalize-damnit {
   text-transform: capitalize;
 }
 

@@ -95,7 +95,7 @@ __xlg-ass-pos-1__ thru **xlg-ass-pos-12**
 ## Typography
 ### Headings
 All heading tags (`<h1>` through `<h6>`) are available as well
-as classes (`.h1` through `.h6` ) if you want to have the
+as classes (`.h1` through `.h6`) if you want to have the
 style of a heading but display the text inline.
 
 lighter secondary text with `<small>` or `.small`
@@ -103,3 +103,28 @@ lighter secondary text with `<small>` or `.small`
 <h1>Header One <small>smaller</small></h1>
 <p class="h1">Paragraph Styled As Heading</p>
 ```
+
+---
+Make that mother fucking paragraph stand out by adding the `.fuckin-poppin` class
+```html
+<p class="fuckin-poppin">...</p>
+```
+---
+### Text Alignment
+```html
+<p class="left-damnit">Left Aligned Text</p>
+<p class="right-damnit">Right Aligned Text</p>
+<p class="center-damnit">Center Aligned Text</p>
+<p class="nowrap-damnit">Nowrap Text</p>
+<p class="justify-damnit">Justified Text</p>
+
+```
+
+---
+### Text Transform
+```html
+<p class="lowercase-damnit">Lowercased Text</p>
+<p class="uppercase-damnit">Uppercased Text</p>
+<p class="capitalized-damnit">Capitalized Damnit</p>
+```
+---
