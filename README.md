@@ -45,3 +45,4 @@ mobile first website.
 |-------|--------------|---------------|----------------|----------------|------------|
 |Class prefix| .tiny-ass-col-|.sm-ass-col-|.md-ass-col- |.lg-ass-col-    |xlg-ass-col-|
 |Break Points| &lt;480px     | &ge;480px  |&ge;768px    | &ge; 968px     | &gt; 1200px|
+|columns|12  |12             |12          |12           |12              |12          |
