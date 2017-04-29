@@ -44,3 +44,4 @@ mobile first website.
 | Empty | Tiny Screens | Small Screens | Medium Screens |  Large Screens | XL Screens |
 |-------|--------------|---------------|----------------|----------------|------------|
 |Class prefix| .tiny-ass-col-|.sm-ass-col-|.md-ass-col- |.lg-ass-col-    |xlg-ass-col-|
+|Break Points| &lt;480px         | &ge;480px       |&ge;768px    | &gt; 968px     | &ge; 1200px|
