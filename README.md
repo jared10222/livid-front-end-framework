@@ -43,4 +43,4 @@ mobile first website.
 ### Grid Options
 | Empty | Tiny Screens | Small Screens | Medium Screens |  Large Screens | XL Screens |
 |-------|--------------|---------------|----------------|----------------|------------|
-|Grid behavior|
+|Class prefix| .tiny-ass-col-|.sm-ass-col-|.md-ass-col- |.lg-ass-col-    |xlg-ass-col-|
