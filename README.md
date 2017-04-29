@@ -66,4 +66,12 @@ To get three columns of equal width:
 | .md-ass-col-4 | .md-ass-col-4 | .md-ass-col-4|
 |---------------|---------------|--------------|
 
+<dl>
+  <dt>row-mother-fucker</dt>
+  <dd>Will produce a row with a max-width of 1200px</dd>
+
+  <dt>row-fluid-mother-fucker</dt>
+  <dd>Will produce a row that is always 100% width</dd>
+</dl>
+
 ---
