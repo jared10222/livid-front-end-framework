@@ -9,9 +9,9 @@ Take Livid Framework for a test drive and blow off some steam!
 
 ### Table of Contents
 ---
-+ [Getting Started](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#getting-started)
-  + [Basic Template](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#basic-template)
-+ [Grid](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#grid)
++ [Getting Started](README.md#getting-started)
+  + [Basic Template](README.md#basic-template)
++ [Grid](README.md#grid)
   + [Grid Options](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#grid-options)
   + [Example Grid](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#example-grid)
   + [Positioning Your Columns](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#positioning-your-columns)
