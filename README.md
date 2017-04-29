@@ -65,7 +65,7 @@ mobile first website.
 |columns|12  |12             |12          |12           |12              |12          |
 
 ### Example: 3 columns on medium screen size
-[example-grid](#example-grid)
+[Example Grid](#example-grid)
 To get three columns of equal width:
 ```html
 <div class="row-mother-fucker">
