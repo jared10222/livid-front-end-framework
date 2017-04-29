@@ -6,6 +6,22 @@
 Dealing with unruly clients?
 Take Livid Framework for a test drive and blow off some steam!
 ---
+
+### Table of Contents
+---
++ [Getting Started](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#getting-started)
+  + [Template](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#template)
++ [Grid](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#grid)
+  + [Grid Options](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#grid-options)
+  + [Example Grid](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#example-grid)
+  + [Positioning Your Columns](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#positioning-your-columns)
++ [Typography](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#typography)
+  + [Headings](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#headings)
+  + [Text Alignment](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#text-alignment)
+  + [Text Transform](https://github.com/jared10222/livid-front-end-framework/blob/master/README.md#text-transform)
+
+  ---
+  
 ### [Getting Started](#getting-started)
 [Add the livid.css file to the header in your index.html file](#template)
 ```html
