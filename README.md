@@ -44,7 +44,7 @@ mobile first website.
 | Empty | Tiny Screens | Small Screens | Medium Screens |  Large Screens | XL Screens |
 |-------|--------------|---------------|----------------|----------------|------------|
 |Class prefix| .tiny-ass-col-|.sm-ass-col-|.md-ass-col- |.lg-ass-col-    |xlg-ass-col-|
-|Break Points| &lt;480px     | &ge;480px  |&ge;768px    | &ge; 968px     | &gt; 1200px|
+|Break Points| &lt;480px     | &ge;480px  |&ge;768px    | &ge; 968px     | &ge; 1200px|
 |columns|12  |12             |12          |12           |12              |12          |
 
 ### Example: 3 columns on medium screen size
