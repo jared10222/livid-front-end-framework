@@ -94,7 +94,7 @@ __xlg-ass-pos-1__ thru **xlg-ass-pos-12**
 
 ## Typography
 ### Headings
-All heading tags (`<h1>` through `<h6`) are available as well
+All heading tags (`<h1>` through `<h6>`) are available as well
 as classes (`.h1` through `.h6` ) if you want to have the
 style of a heading but display the text inline.
 
