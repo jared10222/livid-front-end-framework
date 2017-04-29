@@ -6,8 +6,8 @@
 Dealing with unruly clients?
 Take Livid Framework for a test drive and blow off some steam!
 ---
-### Getting Started
-Add the livid.css file to the header in your index.html file
+### [Getting Started](#getting-started)
+[Add the livid.css file to the header in your index.html file](#template)
 ```html
 <!--basic template-->
 <!doctype html>
@@ -35,19 +35,19 @@ Add the livid.css file to the header in your index.html file
 ```
 
 ---
-## Livid Grid System
+## [Livid Grid System](#grid)
 The grid system is based off of a 12 column layout.
 Keep those mother fucking clients happy by designing a nice fluid
 mobile first website.
 
-### Grid Options
+### [Grid Options](#grid-options)
 | Empty | Tiny Screens | Small Screens | Medium Screens |  Large Screens | XL Screens |
 |-------|--------------|---------------|----------------|----------------|------------|
 |Class prefix| .tiny-ass-col-|.sm-ass-col-|.md-ass-col- |.lg-ass-col-    |xlg-ass-col-|
 |Break Points| &lt;480px     | &ge;480px  |&ge;768px    | &ge; 968px     | &ge; 1200px|
 |columns|12  |12             |12          |12           |12              |12          |
 
-### Example: 3 columns on medium screen size
+### [Example: 3 columns on medium screen size](#example-grid)
 To get three columns of equal width:
 ```html
 <div class="row-mother-fucker">
@@ -75,7 +75,7 @@ To get three columns of equal width:
 </dl>
 
 ---
-### Positioning Your Columns
+### [Positioning Your Columns](#positioning-your-columns)
 *when using the following classes, each row must have a total of 12 columns in it.*<br />
 *if you have 3 columns, then you have 3 different positions you can order them in.*<br />
 __tiny-ass-pos-1__ thru **tiny-ass-pos-12**<br />
@@ -87,13 +87,13 @@ __xlg-ass-pos-1__ thru **xlg-ass-pos-12**
 <div class="row-mother-fucker">
   <div class="sm-ass-col-4 sm-ass-pos-2">pos-2</div>
   <div class="sm-ass-col-4 sm-ass-pos-3">pos-3</div>
-  <div class="sm-ass-col-4 sm-ass-pos-1">pos-4</div>
+  <div class="sm-ass-col-4 sm-ass-pos-1">pos-1</div>
 </div><!--end row-->
 ```
 ---
 
-## Typography
-### Headings
+## [Typography](#typography)
+### [Headings](#headings)
 All heading tags (`<h1>` through `<h6>`) are available as well
 as classes (`.h1` through `.h6`) if you want to have the
 style of a heading but display the text inline.
@@ -110,7 +110,7 @@ Make that mother fucking paragraph stand out by adding the `.fuckin-poppin` clas
 <p class="fuckin-poppin">...</p>
 ```
 ---
-### Text Alignment
+### [Text Alignment](#text-alignment)
 ```html
 <p class="left-damnit">Left Aligned Text</p>
 <p class="right-damnit">Right Aligned Text</p>
@@ -121,7 +121,7 @@ Make that mother fucking paragraph stand out by adding the `.fuckin-poppin` clas
 ```
 
 ---
-### Text Transform
+### [Text Transform](#text-transform)
 ```html
 <p class="lowercase-damnit">Lowercased Text</p>
 <p class="uppercase-damnit">Uppercased Text</p>
