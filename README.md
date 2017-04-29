@@ -91,3 +91,15 @@ __xlg-ass-pos-1__ thru **xlg-ass-pos-12**
 </div><!--end row-->
 ```
 ---
+
+## Typography
+### Headings
+All heading tags (`<h1>` through `<h6`) are available as well
+as classes (`.h1` through `.h6` ) if you want to have the
+style of a heading but display the text inline.
+
+lighter secondary text with `<small>` or `.small`
+```html
+<h1>Header One <small>smaller</small></h1>
+<p class="h1">Paragraph Styled As Heading</p>
+```
