@@ -92,6 +92,7 @@ To get three columns of equal width:
 
 ---
 ### [Positioning Your Columns](#positioning-your-columns)
+:warning:
 *when using the following classes, each row must have a total of 12 columns in it.*<br />
 *if you have 3 columns, then you have 3 different positions you can order them in.*<br />
 __tiny-ass-pos-1__ thru **tiny-ass-pos-12**<br />
