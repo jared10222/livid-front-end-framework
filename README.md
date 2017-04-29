@@ -48,5 +48,20 @@ mobile first website.
 |columns|12  |12             |12          |12           |12              |12          |
 
 ### Example:
+To get three columns of equal width:
+```html
+<div class="row">
+  <div class="md-ass-col-4">
+    col one
+  </div><!--end md-ass-col-4-->
+  <div class="md-ass-col-4">
+    col two
+  </div><!--end md-ass-col-4-->
+  <div class="md-ass-col-4">
+    col three
+  </div><!--end md-ass-col-4-->
+</div><!--end row-->
+```
+
 | .md-ass-col-4 | .md-ass-col-4 | .md-ass-col-4|
 |---------------|---------------|--------------|
