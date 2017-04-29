@@ -10,8 +10,8 @@ Take Livid Framework for a test drive and blow off some steam!
 ### Table of Contents
 ---
 + [Getting Started](README.md#getting-started)
-  + [Basic Template](#basic-template)
-+ [Grid](README.md#grid)
+  + [Basic Template](README.md#basic-template)
++ [Grid](README.md#livid-grid-system)
   + [Grid Options](README.md#grid-options)
   + [Example Grid](README.md#example-grid)
   + [Positioning Your Columns](README.md#positioning-your-columns)
@@ -51,7 +51,7 @@ Take Livid Framework for a test drive and blow off some steam!
 ```
 
 ---
-## [Livid Grid System](#grid)
+## [Livid Grid System](#livid-grid-sytem)
 The grid system is based off of a 12 column layout.
 Keep those mother fucking clients happy by designing a nice fluid
 mobile first website.
