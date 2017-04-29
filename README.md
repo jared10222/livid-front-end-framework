@@ -7,7 +7,7 @@ Dealing with unruly clients?
 Take Livid Framework for a test drive and blow off some steam!
 ---
 ### Getting Started
-Add Our livid.css file to the header in your index.html file
+Add the livid.css file to the header in your index.html file
 ```html
 <!--basic template-->
 <!doctype html>
@@ -16,7 +16,7 @@ Add Our livid.css file to the header in your index.html file
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Livid Framework Basic Template</title>
-  <link rel="stylesheet" href="livid.css">
+  <link rel="stylesheet" href="css/livid.css">
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -67,11 +67,23 @@ To get three columns of equal width:
 |---------------|---------------|--------------|
 
 <dl>
-  <dt>row-mother-fucker</dt>
+  <dt>.row-mother-fucker</dt>
   <dd>Will produce a row with a max-width of 1200px</dd>
 
-  <dt>row-fluid-mother-fucker</dt>
+  <dt>.row-fluid-mother-fucker</dt>
   <dd>Will produce a row that is always 100% width</dd>
 </dl>
 
+---
+### Positioning Your Columns
+*when using the following classes, each row must have a total of 12 columns in it.*
+*if you have 3 columns, then you have 3 different positions you can order them in.*
+Classes: pos-1 thru pos-12
+```html
+<div class="row-mother-fucker">
+  <div class="sm-ass-col-4 pos-2">pos-2</div>
+  <div class="sm-ass-col-4 pos-3">pos-3</div>
+  <div class="sm-ass-col-4 pos-1">pos-4</div>
+</div><!--end row-->
+```
 ---
