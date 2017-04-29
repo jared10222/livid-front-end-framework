@@ -9,6 +9,10 @@ $mark-color: #ffffcc;
 
 $default-border-radius: 5px;
 
+//for the grid system in percentage but leave off % sign
+$site-padding-top-bottom: 0; // in %
+$site-padding-sides: 1; //in %
+
 
 /**
  * Helper variables
@@ -24,3 +28,7 @@ $danger: #990000;
 /**
  * Layout variables
  */
+$phone: "only screen and (min-width: 480px)";
+$tablet: "only screen and (min-width: 768px)";
+$desktop: "only screen and (min-width: 992px)";
+$widescreen: "only screen and (min-width:1200px)";

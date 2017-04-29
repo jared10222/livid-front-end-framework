@@ -1,0 +1,229 @@
+.row {
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:0;
+}
+
+.row-responsive {
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:0;
+}
+
+
+.xlg-ass-col-1 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-2 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-3 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-4 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-5 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-6 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-7 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-8 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-9 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-10 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-11 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.xlg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+.lg-ass-col-1 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-2 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-3 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-4 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-5 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-6 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-7 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-8 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-9 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-10 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-11 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.lg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+
+.md-ass-col-1 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-2 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-3 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-4 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-5 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-6 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-7 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-8 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-9 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-10 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-11 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.md-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+
+.sm-ass-col-1 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-2 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-3 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-4 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-5 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-6 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-7 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-8 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-9 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-10 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-11 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+.sm-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+
+.tiny-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+.tiny-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+
+@media #{$phone} {
+  .xlg-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+  .lg-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+  .md-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+  .sm-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .sm-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+}
+
+
+@media #{$tablet}{
+  .xlg-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+  .lg-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+  .md-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .md-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+}
+
+
+
+@media #{$desktop}{
+  .xlg-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+
+  .lg-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .lg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+}
+
+
+
+@media #{$widescreen}{
+  .xlg-ass-col-1 {@include autoColumns(1, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-2 {@include autoColumns(2, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-3 {@include autoColumns(3, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-4 {@include autoColumns(4, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-5 {@include autoColumns(5, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-6 {@include autoColumns(6, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-7 {@include autoColumns(7, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-8 {@include autoColumns(8, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-9 {@include autoColumns(9, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-10 {@include autoColumns(10, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-11 {@include autoColumns(11, $site-padding-sides, $site-padding-top-bottom);}
+  .xlg-ass-col-12 {@include autoColumns(12, $site-padding-sides, $site-padding-top-bottom);}
+}
