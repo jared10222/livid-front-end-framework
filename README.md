@@ -24,7 +24,7 @@ Add Our livid.css file to the header in your index.html file
 </head>
 <body>
 
-  <header class="row">
+  <header class="row-mother-fucker">
     <div class="md-ass-col-12">
       <h1>Hello Mother Fucker!</h1>
     </div><!--end col-12-->
@@ -50,7 +50,7 @@ mobile first website.
 ### Example: 3 columns on medium screen size
 To get three columns of equal width:
 ```html
-<div class="row">
+<div class="row-mother-fucker">
   <div class="md-ass-col-4">
     col one
   </div><!--end md-ass-col-4-->
@@ -65,3 +65,5 @@ To get three columns of equal width:
 
 | .md-ass-col-4 | .md-ass-col-4 | .md-ass-col-4|
 |---------------|---------------|--------------|
+
+---
