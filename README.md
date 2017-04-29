@@ -76,8 +76,8 @@ To get three columns of equal width:
 
 ---
 ### Positioning Your Columns
-*when using the following classes, each row must have a total of 12 columns in it.*
-*if you have 3 columns, then you have 3 different positions you can order them in.*
+*when using the following classes, each row must have a total of 12 columns in it.*<br />
+*if you have 3 columns, then you have 3 different positions you can order them in.*<br />
 Classes: pos-1 thru pos-12
 ```html
 <div class="row-mother-fucker">
