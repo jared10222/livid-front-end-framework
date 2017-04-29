@@ -23,7 +23,7 @@ Take Livid Framework for a test drive and blow off some steam!
   ---
 
 ### [Getting Started](#getting-started)
-[Add the livid.css file to the header in your index.html file](#basic-template)
+### [Add the livid.css file to the header in your index.html file](#basic-template)
 ```html
 <!--basic template-->
 <!doctype html>
@@ -51,7 +51,7 @@ Take Livid Framework for a test drive and blow off some steam!
 ```
 
 ---
-## [Livid Grid System](#grid)
+### [Livid Grid System](#grid)
 The grid system is based off of a 12 column layout.
 Keep those mother fucking clients happy by designing a nice fluid
 mobile first website.
