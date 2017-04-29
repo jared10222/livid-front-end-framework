@@ -24,7 +24,7 @@ Take Livid Framework for a test drive and blow off some steam!
 
 ### [Getting Started](#getting-started)
 Add the livid.css file to the header in your index.html file
-[Basic Template](#basic-template)
+### [Basic Template](#basic-template)
 ```html
 <!--basic template-->
 <!doctype html>
@@ -65,7 +65,7 @@ mobile first website.
 |columns|12  |12             |12          |12           |12              |12          |
 
 ### Example: 3 columns on medium screen size
-[Example Grid](#example-grid)
+### [Example Grid](#example-grid)
 To get three columns of equal width:
 ```html
 <div class="row-mother-fucker">
