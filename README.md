@@ -47,7 +47,7 @@ mobile first website.
 |Break Points| &lt;480px     | &ge;480px  |&ge;768px    | &ge; 968px     | &gt; 1200px|
 |columns|12  |12             |12          |12           |12              |12          |
 
-### Example:
+### Example: 3 columns on medium screen size
 To get three columns of equal width:
 ```html
 <div class="row">
