@@ -33,3 +33,14 @@ Add Our livid.css file to the header in your index.html file
 </body>
 </html>
 ```
+
+---
+## Livid Grid System
+The grid system is based off of a 12 column layout.
+Keep those mother fucking clients happy by designing a nice fluid
+mobile first website.
+
+### Grid Options
+| Empty | Tiny Screens | Small Screens | Medium Screens |  Large Screens | XL Screens |
+|-------|--------------|---------------|----------------|----------------|------------|
+|Grid behavior|
